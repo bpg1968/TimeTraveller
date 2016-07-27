@@ -1,0 +1,8 @@
+# Site settings
+title: TimeTraveller
+#email:
+#description:
+
+# Build settings
+kramdown:
+  input: GFM
