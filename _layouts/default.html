@@ -4,23 +4,22 @@
 <html>
 {% include head.html %}
 <body>
-
   <div class="wrapper">
     {% include header.html %}
     <div id="container">
       <p class="tagline">Drive safely and always obey posted speed limits.</p>
       <div id="main" role="main">
         <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/bpg1968/TimeTraveller/tarball/master" class="download-button tar"><span>Download</span></a>
-          <a href="https://github.com/bpg1968/TimeTraveller/zipball/master" class="download-button zip"><span>Download</span></a>
-          <a href="https://github.com/bpg1968/TimeTraveller" class="code">View Timetraveller on GitHub</a>
-        </div>
-        </div>
+          <div class="inner">
+            <a href="https://github.com/bpg1968/TimeTraveller/tarball/master" class="download-button tar"><span>Download</span></a>
+            <a href="https://github.com/bpg1968/TimeTraveller/zipball/master" class="download-button zip"><span>Download</span></a>
+            <a href="https://github.com/bpg1968/TimeTraveller" class="code">View Timetraveller on GitHub</a>
+          </div><!-- .inner -->
+        </div><!-- .download-bar -->
         {{ content }}
-      </div>
-    </div>
+      </div><!-- #main -->
+    </div><!-- .container -->
     {% include footer.html %}
-  </div>
+  </div><!-- .wrapper -->
 </body>
 </html>
